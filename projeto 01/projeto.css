@@ -1,0 +1,108 @@
+@font-face {
+    font-family: 'Android';
+    src: url(idroid.otf) format(opentype);
+    font: Normal Normal 3em ;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: #84E1AD;
+}
+header{
+    background-image: linear-gradient(to top, #1A5C38, #1E693F, #2FA765);
+    height: 300px;
+    width: auto;
+    text-align: center;
+    color: white;
+    font-size: larger;
+    box-shadow: 5px 3px 3px #1a5c3836;
+    
+}
+header > h1{
+    padding-top: 80px;
+}
+header > nav{
+    padding-top: 80px;
+}
+
+
+header > nav > a{
+    color: white;
+
+}
+main{
+    display: block;
+    margin: auto;
+    max-width: 1100px;
+    background-color: white;
+    text-align: justify;
+    box-shadow: #2fa7652d;
+    font-family: 'Times New Roman', Times, serif;
+    font-style: normal;
+}
+
+article > h1{
+    text-align: justify;
+    font-family: 'Android';
+    font-size: 24px;
+    color: #1E693F;
+}
+article > h2{
+    text-align: justify;
+    font-family: 'Android';
+    font-size: 18px;
+    color: #1E693F;
+    border-color: #1e693f00;
+    background-image: linear-gradient(to right, #12b32781, #19940025);
+
+}
+
+main > picture{
+  width: 80%;
+  margin: auto;
+  display: block;
+}
+
+main > img{
+  width: 40%;
+  margin: auto;
+  display: block;
+
+}
+main#video{
+    background-color: #1E693F;
+    height: 600px;
+    width: auto;
+    margin: auto;
+    display: block;
+}
+main#video > section > iframe{
+    width: 90%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    height: 500px;
+    margin: auto;
+    display: block;
+   
+}
+main > section > h2#tabela{
+    background-color: green;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 10px 10px 0px 0px;
+}
+main > section#tab {
+    display: block;
+    background-color: #00612c;
+    color: white;
+    width: 80%;
+    margin: auto;
+    text-align: left;
+
+} 
+main > section#tab > ol{
+    margin-left: 5%;
+}
