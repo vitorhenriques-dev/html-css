@@ -1,0 +1,29 @@
+*{
+    margin: 0px;
+}
+
+header {
+    background-color: black;
+    color: white;
+    font-size: 2em;
+    height: 200px;
+    text-align: center;
+    padding: 20px;
+
+}
+header > h2 {
+    color: white;
+    font-size: 0.8em;
+}
+
+div {
+    margin: 25%;
+    height: 98vh;
+    background-repeat: no-repeat;
+    background-image: url('imagens/background001.jpg');
+    background-size: contain;
+    color: aliceblue;
+    font-size: larger;
+    font-display: 1.2em;
+
+}
