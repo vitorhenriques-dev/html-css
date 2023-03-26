@@ -32,9 +32,7 @@ header a , footer a {
     font-weight: bolder;
 }
 
-header a:hover, footer a:hover {
-    text-decoration: underline;
-}
+
 
 section {
     padding-top: 10vh;
