@@ -1,8 +1,9 @@
 @charset "UTF-8";
 
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Passion+One:wght@400;700;900&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
 
-@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Sriracha&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
  
 :root {
     --fonte1: font-family: Verdana, Geneva, Tahoma, sans-serif;
