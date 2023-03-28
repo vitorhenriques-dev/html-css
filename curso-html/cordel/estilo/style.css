@@ -75,6 +75,15 @@ section.imagem {
     color: white;
     background-size: cover;
     background-attachment: fixed;
+    background-position: right center;
+}
+
+section#img01 {
+    background-image: url('../background001.jpg');
+}
+
+section#img02 {
+    background-image: url('../background002.jpg');
 }
 
 section.imagem > p {
